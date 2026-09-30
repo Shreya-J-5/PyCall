@@ -119,7 +119,7 @@ In Window 1, enter `127.0.0.1` and Port `5002`, then hit **CALL**! Click **ACCEP
      python main.py
      ```
 3. **Find your IP address:**
-   - Look at the top of the app window under **Your Address**. It shows your current local IP (for example: `192.168.1.25`).
+   - Look at the top of the app window under **Your Address**. It shows your current local IP (for example: `192.168.X.X`).
 4. **Make the call:**
    - On Laptop A, type Laptop B's IP address into the **Remote IP** box.
    - Click the green **CALL** button. 📞

@@ -326,7 +326,7 @@ class PyCallApp:
                 "Enter IP Address",
                 "Please enter an IP address before clicking CALL.\n\n"
                 "- On the same laptop: enter 127.0.0.1\n"
-                "- Between two laptops: enter the other laptop's IP (e.g. 192.168.1.25)"
+                "- Between two laptops: enter the other laptop's IP (e.g. 192.168.X.X)"
             )
             return
 
@@ -347,7 +347,7 @@ class PyCallApp:
         except ValueError:
             messagebox.showerror(
                 "Invalid IP Address",
-                f"'{raw_ip}' is not a valid IPv4 address.\n\nUse 127.0.0.1 for local testing, or a LAN IP like 192.168.1.25"
+                f"'{raw_ip}' is not a valid IPv4 address.\n\nUse 127.0.0.1 for local testing, or a LAN IP like 192.168.X.X"
             )
             return
 
